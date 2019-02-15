@@ -20,9 +20,9 @@
 
 					<!-- Logo -->
 						<div id="logo">
-							<span class="image avatar48"><img src="images/profile.jpg" alt="" /></span>
+							<span class="image avatar48"><img src="images/profile.png" alt="" /></span>
 							<h1 id="title">Matthew Myers</h1>
-							<p>Software Developer</p>
+							<p style="text-align:right">Software Developer</p>
 						</div>
 
 					<!-- Nav -->
@@ -60,7 +60,7 @@
 								<!-- <h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
 								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2> -->
 								<h2>About Me</h2>
-								<p>Hi, I'm Matthew Myers, a computer science student at the University of Michigan pursuing a career in software development. You can find more about the projects I've worked on below!</p>
+								<p style="text-align:center">Hi, I'm Matthew Myers, a computer science student at the University of Michigan pursuing a career in software development. You can find more about the projects I've worked on below!</p>
 							</header>
 
 							<div class="row">
@@ -84,7 +84,7 @@
 					</section>
 
 				<!-- Portfolio -->
-					<section id="portfolio" class="two">
+					<section id="portfolio" class="two dark">
 						<div class="container">
 
 							<header>
@@ -92,9 +92,35 @@
 							</header>
 
 							<div style="text-align:left">
-								<h4><b>Pokébuild: A New Pokémon Teambuilder (<a href="https://matmyers.github.io/pokebuild/teambuilder-competitive" target="_blank" style="font-size: 14pt">Link <span style="font-size: 8pt" class="icon fa-external-link"></span></a>)</b></h4>
-								<p style="font-size: 12pt">Pokébuild is a web app that gives competitive pokémon players a new way to build teams, providing tools such as team recommendations and 1v1 speed comparison. Pokémon Showdown's teambuilder is solid, but it can be difficult to know where to start for new players and players who are coming back to the game after not playing for a while. Pokébuild makes getting started easy, providing users with usage stats to give them a picture of the current metagame. The speed comparison tool is something that experienced players will find very useful while building for specific scenarios. Pokébuild also provides compatibility with Pokémon Showdown, allowing users to easily transfer teams built with Pokébuild over to the most popular battle simulator. Overall, this new teambuilder provides a few features that Pokémon Showdown's teambuilder doesn't have, with the aim of improving the teambuilding process.</p>
-								<p style="font-size: 12pt">I developed Pokébuild with Angular 6, utilizing TypeScript, HTML, and Bootstrap 4. This allowed me to get more experience with JavaScript while learning more about the Angular framework. I enjoyed using Angular for the first time, as using Angular components allowed me to draw on my background with OOP languages like C++.</p>
+								<h4><b>The Legend of Zelda Recreation and Custom Level &nbsp; (<a href="https://www.benpinzone.io/Zelda/" target="_blank" style="font-size: 14pt">Game <span style="font-size: 8pt" class="icon fa-external-link"></span></a>)(<a href="https://www.benpinzone.io/HowToPlayZelda.txt" target="_blank" style="font-size: 14pt">How To Play <span style="font-size: 8pt" class="icon fa-external-link"></span></a>)</b></h4>
+								<div class="row">
+									<div class="col-6">
+										<p style="font-size: 12pt">This recreation of the NES The Legend of Zelda's first dungeon was developed over three weeks in my senior design course (EECS 494) at UofM. In this project, my partner and I replicated several mechanics authentically, including player movement and attacks, enemy movement, health and damage components, camera transitions, and more. We also developed a custom mechanic and designed a mini-dungeon revolving around this mechanic, part of which is shown to the right.</p>
+										<p style="font-size: 12pt">This game was built with Unity, with scripts developed in C#. While game sprites and audio were provided for us, the implementation of each mechanic was done from scratch. This project allowed me to gain meaningful experience with Unity and Unity Collab, challenged my creativity in designing levels, and improved my discipline and focus with a short deadline.</p><br>
+									</div>
+									<div class="col-6">
+										<br>
+										<img src="images/custom_level.gif" alt="" />
+									</div>
+								</div>
+							</div>
+
+							<div style="text-align:left">
+								<h4><b>Pokébuild: A New Pokémon Teambuilder &nbsp; (<a href="https://matmyers.github.io/pokebuild/teambuilder-competitive" target="_blank" style="font-size: 14pt">Link <span style="font-size: 8pt" class="icon fa-external-link"></span></a>)</b></h4>
+								<div class="row">
+										<div class="col-5">
+											<p style="font-size: 12pt">Pokébuild is a web app that gives competitive pokémon players a new way to build teams, providing tools such as team recommendations and 1v1 speed comparison. Pokémon Showdown's teambuilder is solid, but it can be difficult to know where to start for new players and players who are coming back to the game after not playing for a while. Pokébuild makes getting started easy, providing users with usage stats to give them a picture of the current metagame. The speed comparison tool is something that experienced players will find very useful while building for specific scenarios. Pokébuild also provides compatibility with Pokémon Showdown, allowing users to easily transfer teams built with Pokébuild over to the most popular battle simulator. Overall, this new teambuilder provides a few features that Pokémon Showdown's teambuilder doesn't have, with the aim of improving the teambuilding process.</p>
+										</div>
+										<div class="col-7">
+											<br>
+											<br>
+											<br>
+											<img src="images/pokebuild.gif" alt="" />
+										</div>
+								</div>
+								<div class="row">
+									<p style="font-size: 12pt">I developed Pokébuild with Angular 6, utilizing TypeScript, HTML, and Bootstrap 4. This allowed me to get more experience with JavaScript while learning more about the Angular framework. I enjoyed using Angular for the first time, as using Angular components allowed me to draw on my background with OOP languages like C++.</p><br>
+								</div>
 							</div>
 
 							<div style="text-align:left">
@@ -102,6 +128,7 @@
 								<p style="font-size: 12pt">Insta485 is a clone of Instagram developed over several weeks in an upper-level EECS course (EECS 485) at UofM. The goal of this project was to implement several key features of Instagram, including the creation and editing of users, posts, and likes, as well as tracking followers. </p>
 								<p style="font-size: 12pt">Insta485 was a 3-part project, involving the implementation of a static site generator for the first part, server-side dynamic pages for the second, and client-side dynamic pages for the third. I developed Insta485 in a group of 3 students with React and JavaScript for the front end, and Python Flask for the back end. This allowed me to get more experience in a team environment while completing a project encompassing the full web stack. I also learned basic SQL database usage, how to construct a REST API, and more about HTTP requests and cookies.</p>
 							</div>
+
 
 							<!-- <p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
 							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
@@ -157,7 +184,7 @@
 					</section>
 
 				<!-- About Me -->
-					<section id="about" class="three">
+					<section id="about" class="three dark">
 						<div class="container">
 
 							<header>
@@ -168,7 +195,12 @@
 								<h4><b>Ave Maria School of Law (<span style="font-size: 14pt">Summer 2017</span>)</b></h4>
 								<p style="font-size: 12pt">Ave Maria School of Law is a small, Catholic law school in Naples, Florida. During my time there, I worked as an intern with the IT department, primarily with the web developer. I mostly worked on a few web applications (such as forms for students to submit to the administration) and a prototype for a mobile application (<a href="https://github.com/matmyers/amsl_mobile_code" target="_blank" style="font-size: 14pt">GitHub Link <span style="font-size: 8pt" class="icon fa-external-link"></span></a>).</p>
 								<p style="font-size: 12pt">Through the web projects, I got some experience with ASP.NET, C#, and Visual Studio, and learned how to design applications with connections to SQL databases.</p>
-								<p style="font-size: 12pt">Through the mobile application, I had the opportunity to develop in Swift and also get more experience with Xcode, GitHub, and JSON. I enjoyed using Swift, as it feels well designed for the mobile app workflow. I also focused on utilizing the MVC framework for this application.</p>
+								<p style="font-size: 12pt">Through the mobile application, I had the opportunity to develop in Swift and also get more experience with Xcode, GitHub, and JSON. I enjoyed using Swift, as it feels well designed for the mobile app workflow. I also focused on utilizing the MVC framework for this application.</p><br>
+							</div>
+
+							<div style="text-align:left">
+								<h4><b>Hacker Fellows (<span style="font-size: 14pt">2019 Fellowship Program</span>)</b></h4>
+								<p style="font-size: 12pt">Chosen one of fifteen to participate in Hacker Fellows Year-Long Fellowship program, land a software development position with a technology startup and grow connections in Michigan's venture capital community</p>
 							</div>
 
 							<!-- <a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
@@ -184,7 +216,7 @@
 					</section>
 
 				<!-- Contact -->
-					<section id="contact" class="four">
+					<section id="contact" class="four dark">
 						<div class="container">
 
 							<header>
@@ -193,35 +225,36 @@
 
 							<div style="text-align:left">
 								<h4><b>University of Michigan</b></h4>
-								<p style="font-size: 12pt">Graduating May 2019<br>Computer Science and Engineering (GPA: 3.08)</p>
-								<p>Relevant Courses:<br>
+								<p style="font-size: 12pt">Graduating May 2019<br>Computer Science and Engineering (GPA: 3.10)</p>
+								<p><b>Relevant Courses:</b><br>
 									<span style="font-size: 12pt">
 										- Web Systems (EECS 485)<br>
-										- Software Engineering (EECS 481)<br>
+										- User Interface Development (EECS 493)<br>
+										- Video Game Development (EECS 494) – in progress<br>
+										- Database Management Systems (EECS 484)<br>
 										- Data Structures and Algorithms (EECS 281)<br>
-										- User Interface Development (EECS 493) – in progress<br>
-										- Database Management Systems (EECS 484) – in progress<br>
+										- Software Engineering (EECS 481)<br>
 									</span>
 								</p>
-								<p>Programming Languages:<br>
+								<p><b>Programming Languages:</b><br>
 									<span style="font-size: 12pt">
 										- C++<br>
+										- C#<br>
 										- Python<br>
 										- JavaScript<br>
-										- C#<br>
 										- Swift<br>
 									</spam>
 								</p>
-								<p>Programming Software:<br>
+								<p><b>Programming Software:</b><br>
 									<span style="font-size: 12pt">
+										- Unity<br>
+										- Visual Studio<br>
 										- GitHub<br>
 										- Sublime<br>
 										- Xcode<br>
-										- Visual Studio<br>
-										- Unity<br>
 									</span>
 								</p>
-								<p>Extracurricular Activities:<br>
+								<p><b>Extracurricular Activities:</b><br>
 									<span style="font-size: 12pt">
 										- Wolverine Soft (UMich game development club) - Created several basic 2D games in Unity and engaged in game developer’s approach to problem-solving<br>
 										- National Novel Writing Month - Completed challenge to write a 40,000-word book in one month, demonstrating determination and ability to meet a large-scale project deadline<br>
@@ -256,7 +289,7 @@
 			<div id="footer">
 
 				<!-- Copyright -->
-					<ul class="copyright">
+					<ul class="copyright dark">
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
 
